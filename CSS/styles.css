@@ -10,18 +10,11 @@ body{
     margin-bottom: 0;
     
 }
-.atas input {
-    margin-left: auto;
-    height: 20px;
-    width: 300px;
-    margin-top: 25px;
-    margin-right: 30px;
-    border-radius: 15px;
-}
 .atas h1 {
     margin-top: 15px;
     margin-left: 20px;
     font-family: sans-serif;
+    margin-right: auto;
 }
 #all{
     display: flex;
@@ -41,6 +34,23 @@ body{
     margin-bottom: 10px;
 }
 
+/* pencarian */
+.pencarian1 input{
+    margin-left: auto;
+    height: 20px;
+    width: 300px;
+    margin-top: 25px;
+    margin-right: 5px;
+    border-radius: 15px;
+    /* justify-self: end;  */
+}
+.pencarian1{
+    margin-right: 20px;
+}
+/* mulai uji coba */
+
+
+/* batas */
 .circle {
     width: 100px; 
     height: 100px;
@@ -50,56 +60,96 @@ body{
     margin-right: auto;
   }
 
-.detail{
-    display: table;
-    width: 25%;
-}
-
 .box{
     border: 1px;
-    width: 75%;
+    width: 100%;
     background-color: #F5F7F8;
     border-top-left-radius: 30px;
-    display: table;
+    display: table; 
     margin-left: 10px;
 }
-.btn{
-    margin: 10px;
-}
 
-.scrool_detail{
-    background-color: aliceblue;
-    width: auto;
-    height: 500px;
-    overflow: auto;
-    padding: 10px;
-    margin: 0;
+/* bagian materi/opsi */
+.bagan{
+    margin: 20px;
+    display: flexbox; 
 }
-.option_detail{
-    background-color: #088395;
-    border-radius: 10px;
-    width: 90%;
-    height: 150px;
+/* media */
+.media{
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    border-radius: 25px;
+    margin-bottom: 20px;
 }
-.detail_tools{
+.materi_btn{
+    overflow-y: scroll;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 20px;
+    
+}
+.btn_bilangan{
+    margin: 10px; 
+    height: 200px;
+    width: 320px;
     background-color: #088395;
-    height: 40px;
-
+    border-radius: 20px;
+    border: 0;
 }
-
-.tools1{
-    text-align: center;
+.btn_bentuk{
+     margin: 10px; 
+    height: 200px;
+    width: 320px;
+    background-color: #088395;
+    border-radius: 20px;
+    border: 0;
 }
-.a{
-    padding:8px ;
-    border-radius: 100%;
-    border-color: transparent;
-    background-color: white;
-    width: 30px;
-    height: 30px;
-    margin-top: 5px;
-    margin-right: 10px;
+.btn_3{
+    margin: 10px; 
+   height: 200px;
+   width: 320px;
+   background-color: #088395;
+   border-radius: 20px;
+   border: 0;
+}
+.btn_4{
+    margin: 10px; 
+   height: 200px;
+   width: 320px;
+   background-color: #088395;
+   border-radius: 20px;
+   border: 0;
+}
+.btn_4{
+    margin: 10px; 
+   height: 200px;
+   width: 320px;
+   background-color: #088395;
+   border-radius: 20px;
+   border: 0;
+}
+.btn_5{
+    margin: 10px; 
+   height: 200px;
+   width: 320px;
+   background-color: #088395;
+   border-radius: 20px;
+   border: 0;
+}
+.isi_btn{
+    height: 100px;
+    width: 50px;
+    background-color: #F5F7F8;
+    
+}
+.wadah{
+    height: 200px;
+    width: 320px;
+    margin: 0;
 }
